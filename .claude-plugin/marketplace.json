@@ -1,0 +1,50 @@
+{
+  "name": "music-tech-growth-skills",
+  "owner": {
+    "name": "Nick Merich",
+    "email": "nick@gryt.club",
+    "url": "https://grytrunclub.com"
+  },
+  "metadata": {
+    "description": "Agent skills for growing music technology products: creator research, first-output activation, creator partner programs, launch, pricing, content, and honest measurement.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "music-tech-growth-skills",
+      "description": "Agent skills for growing music technology products: creator research, first-output activation, creator partner programs, launch, pricing, content, and honest measurement.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Nick Merich",
+        "email": "nick@gryt.club"
+      },
+      "homepage": "https://github.com/nickmerich/music-tech-growth-skills",
+      "repository": "https://github.com/nickmerich/music-tech-growth-skills",
+      "license": "MIT",
+      "keywords": [
+        "agent-skills",
+        "skill-md",
+        "music-tech",
+        "creator-economy",
+        "growth-marketing"
+      ],
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/artist-partnerships",
+        "./skills/attribution-and-measurement",
+        "./skills/community-and-workshops",
+        "./skills/creator-activation-ladder",
+        "./skills/creator-partner-program",
+        "./skills/creator-recruiting",
+        "./skills/demo-and-content-engine",
+        "./skills/first-output-activation",
+        "./skills/irl-activations",
+        "./skills/music-creator-research",
+        "./skills/music-tech-growth-lead",
+        "./skills/pricing-and-promotions",
+        "./skills/product-launch"
+      ]
+    }
+  ]
+}

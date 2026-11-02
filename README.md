@@ -26,11 +26,22 @@ Built by Nick Merich ([GRYT](https://grytrunclub.com)) from growth work across m
 
 ## Quick start
 
+**Claude Code, one command:**
+
+```
+/plugin marketplace add nickmerich/music-tech-growth-skills
+/plugin install music-tech-growth-skills@music-tech-growth-skills
+```
+
+**Any agent that reads `SKILL.md`** (Claude apps, Codex, Cursor, Gemini CLI, Copilot, Perplexity):
+
 ```bash
 cp -r skills/* ~/.claude/skills/
 python3 scripts/funnel_report.py examples/orders-sample.csv examples/partners-sample.csv --as-of 2026-10-20
 python3 scripts/validate_skills.py
 ```
+
+Every skill also passes `skills-ref validate` from the [Agent Skills reference library](https://github.com/agentskills/agentskills).
 
 ## Ground rules
 
