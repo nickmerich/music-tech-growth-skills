@@ -46,3 +46,7 @@ python3 scripts/validate_skills.py
 
 - [Artist-Led Athletic Events skills](https://github.com/nickmerich/artist-led-events-skills)
 - [Run Club skills](https://github.com/nickmerich/run-club-skills)
+
+## License
+
+MIT. See [LICENSE](LICENSE).
